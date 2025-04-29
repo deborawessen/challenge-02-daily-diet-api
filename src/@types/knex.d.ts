@@ -10,6 +10,7 @@ declare module 'knex/types/tables' {
         },
         meals: {
             id: string,
+            user_id: string,
             name: string,
             description: string,
             date: string,
@@ -19,3 +20,4 @@ declare module 'knex/types/tables' {
         }
     }
 }
+
